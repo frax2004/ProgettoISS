@@ -45,43 +45,57 @@
 ' - Dati relativi ai potenziamenti
 
 frame "Interfaccia" {
+  ' Permettono visualizzazione di scelta di opzioni (Tramite Controller)
   frame "MENU" {
+    ' Scelta di Inizio, Opzioni, Crediti    
+    note "Scelta di Inizio, Opzioni, Crediti" as Peppe
     frame "Menu' principale" {
 
     }
-    frame "Menu' di eventi" {
+    "Menu' principale" -> Peppe
+    ' Scelta delle Impostazioni/Opzioni
+    frame "Menu' di opzioni" {
 
     }
-    frame "Menu' di opzioni"
+    ' Scelta degli eventi/opzioni in uno scenario
+    frame "Menu' Scenario" {
+
+    }
+    ' Scelta delle operazioni da fare in un Evento
+    frame "Menu' dell'Evento" {
+
+    }
+    ' Scelta della Classe
+    frame "Menu' Scelta Personaggio" {
+
+    }
   }
 
+    ' Permette la visualizzazione senza scelte (Tramite Controller)
   frame "VISUALIZZATORI" {
-
-    frame "Visualizzatore di scenari" {
-
-    }
-    frame "Visualizzatore di eventi" {
+    ' Mostra le info di un evento in particolare
+    ' (Quello scelto dal menu')
+    frame "Visualizzatore Info Evento" {
 
     }
+    ' Mostra le stats di ogni giocatore
     frame "Visualizzatore di inventario/statistiche" {
 
     }
+    ' Mostra la lista degli scenari (no MENU')
     frame "Visualizzatore di mappa livello" {
 
     }
-    frame "Visualizzatore di lobby d'attesa + scelta personaggio" {
-
-    }
     
-    "Visualizzatore di scenari" <-down- "Visualizzatore di eventi"
-    "Visualizzatore di mappa livello" <-down- "Visualizzatore di lobby d'attesa + scelta personaggio"
-
+    ' "Visualizzatore Info Evento" <-down- "Menu' Scenario"
   }
 
-  "Visualizzatore di lobby d'attesa + scelta personaggio" <-right- "Menu' principale"
-  "Menu' di opzioni" <-down- "Menu' principale"
-  "Menu' di eventi" <-down- "Visualizzatore di scenari"
-  "Visualizzatore di eventi" <-down- "Menu' di eventi"
+  ' "Menu' di opzioni" <-down- "Menu' principale"
+  ' "Menu' Scelta Personaggio" <-down- "Menu' principale"
+  ' "Menu' di eventi" <-down- "Visualizzatore di scenari"
+  ' "Visualizzatore di mappa livello" <-down- "Menu' Scelta Personaggio"
+  ' "Visualizzatore di eventi" <-down- "Menu' di eventi"
+  
   "VISUALIZZATORI" <---[hidden]down-- "MENU"
 }
 
