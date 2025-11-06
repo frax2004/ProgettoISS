@@ -1,0 +1,82 @@
+@startuml Architettura_logica
+
+' usare MVC (Model-View-Controller):
+' - Model: database
+' - View: interfaccia grafica
+' - Controller: Software vero e proprio
+
+' Il controller sarà diviso in "categorie di classi" 
+' usando architettura a strati modulare.
+
+' Model, View e Controller devono poter comunicare tra loro.
+
+' Da fare una relazione alla fine del progetto
+
+
+' Tenere a mente Client-Server
+' Il database può essere "finto" (obv)
+' DISEGNINO A BLOCKLY CHE A NOI CI PIACCIONO I DISEGNINI
+'
+' Prossimi passaggi:
+' 1) Definire i requisiti NON funzionali (non direttamente legati alle
+'    funzionalità del sistema) e definire come misurarli: 
+'    ad esempio misure di velocità, performance ecc ecc...
+' 
+' 2) Definire i requisiti funzionali come le user story
+'    (ricorda la sintassi Who-What-Why) e gli Acceptance Criteria 
+'
+'
+
+' View, cosa mettere dentro:
+' - Visualizzatore di scenari
+' - Menu' di eventi
+' - Visualizzatore di eventi
+' - Visualizzatore di inventario/statistiche
+' - Menu' principale
+' - Lobby d'attesa + scelta personaggio
+' - Visualizzatore di mappa livello
+' - Menu' opzioni
+' 
+
+
+' Model, cosa mettere dentro:
+' - Dati relativi ai personaggi/classi/nemici
+' - Dati relativi all'equipaggiamento
+' - Dati relativi ai potenziamenti
+
+frame "Interfaccia" {
+    frame "MENU" {
+        frame "Menu' principale" {
+
+        }
+        frame "Menu' di eventi" {
+
+        }
+        frame "Menu' di opzioni"
+    }
+
+    frame "VISUALIZZATORI" {
+        frame "Visualizzatore di scenari" {
+
+        }
+        frame "Visualizzatore di eventi" {
+
+        }
+        frame "Visualizzatore di inventario/statistiche" {
+
+        }
+        frame "Visualizzatore di mappa livello" {
+
+        }
+        frame "Visualizzatore di lobby d'attesa + scelta personaggio" {
+
+        }
+    }
+    "Visualizzatore di lobby d'attesa + scelta personaggio" <-right- "Menu' principale" 
+    "Menu' di opzioni" <-down- "Menu' principale"
+    "Menu' di eventi" <-down- "Visualizzatore di scenari"
+    "Visualizzatore di eventi" <-down- "Menu' di eventi" 
+    VISUALIZZATORI <-[hidden]up- MENU 
+}
+
+@enduml
