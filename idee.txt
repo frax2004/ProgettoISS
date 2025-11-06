@@ -56,3 +56,5 @@ Turni:
 OK:
 Avventurieri incaricati di sconfiggere un boss
 Ogni fine livello/evento + denaro in base alla difficoltà.
+
+Ciao - questa è una modifica
