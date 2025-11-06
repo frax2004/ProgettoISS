@@ -1,0 +1,62 @@
+IDEE PROGETTO GDR
+
+Generazione Procedurale di Livelli
+
+Min 2 Player
+Max 5 Player
+
+Lobby => Scelta classe
+	
+Storyline intesa come squadra
+Per gli attacchi == Turni
+Ogni livello ha un obiettivo - definito a priori
+
+Elmo maledetto - Boss Finale
+	
+DA DEFINIRE (Per priorità):
+Completamento di un evento + bonus per livello
+Completamento di un livello + bonus per campagna
+Buff per livello e buff permamente per campagna
+Tema del gioco
+Tipologie di Eventi
+Classi di nemici e Personaggi (in base al Tema)
+Equipaggiamento/Caratteristiche per Classe (Astrazione base, le implementazioni un domani)
+Possibili checkpoint
+Abilità Attive/Passive (Scalano con il livello del PG)
+Inventario
+
+Quando si ha un'idea generale (il più completa possibile):
+1) Architettura logica dell'app (propongo MVC+Layer)
+
+VOTAZIONE:
+1) Votazione ORE o TOKEN (pesi degli eventi)
+
+IDEE BUONE:
+1) Negozio prima di iniziare il boss (SI)
+2) Equip Base (+monete) all'inizio di ogni livello (in base al PG) (SI)
+3) Eventi tutti opzionali (SI)
+4) Boss obbligatorio (pefforza) (SI)
+5) Roadmap di Scenari con skip verso il boss (SI) 
+6) n Eventi dentro uno Scenario (SI) 
+7) Ogni evento skippabile ha un peso,
+	non si conosce il contenuto degli eventi futuri (di altri Scenari). (SI)
+8) Generazione Scenari/Eventi in base al livello della squadra (SI)
+9) Moralità/Allineamento del PG (SI)
+10) Potenziamenti in base all'allineamento del PG (SI)
+	(Aggiunta di cose in base alla prob. ? === GAMBLING)
+11) All'interno del livello, si possono perdere HP (0 <= HP <= MAX_HP in base alla classe) (SI)
+	Recuperabili attraverso pozioni/abilità (SI)
+	Ogni fine livello si resettano gli HP. (SI)
+12) Si ha un max di eventi 'secondari' da potere giocare. (SI)
+
+Turni:
+1) Iniziativa + DES (Come D&D) (SI)
+2) Possibilità di più attacchi per il boss (Poi si vede)
+
+OK:
+Avventurieri incaricati di sconfiggere un boss
+Ogni fine livello/evento + denaro in base alla difficoltà.
+
+QUESTA E' UNA PROVA - CIAO A TUTTI
+QUINDI SE SCRIVO VEDETE TUTTI?w
+l'odio per le donne mi paga l'affitto
