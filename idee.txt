@@ -55,4 +55,8 @@ Turni:
 
 OK:
 Avventurieri incaricati di sconfiggere un boss
+<<<<<<< Updated upstream
 Ogni fine livello/evento + denaro in base alla difficoltà.
+=======
+Ogni fine livello/evento + denaro in base alla difficoltà.
+>>>>>>> Stashed changes
