@@ -138,24 +138,33 @@ frame "Modello" {
     frame "DatiHistory" {
 
     }
-    note top of "DatiHistory": "Progressione fino al tempo attuale"
+    note bottom of "DatiHistory": "Progressione fino al tempo attuale"
 
-    frame "DatiScenari" {
-
-    }
-    frame "DatiBoss" {
-
-    }
-    frame "DatiLivelli" {
-      
-    }
-  
     frame "DatiGiocatori" {
 
     }
-    note top of "DatiGiocatori": "Dati Personaggi Runtime"
-  }
+    note bottom of "DatiGiocatori": "Dati Personaggi Runtime"
+    
+    frame "DatiLivelli" {
+        frame "DatiBoss" {
 
+      }
+      frame "DatiScenari" {
+      
+      }
+    }
+  }
+  "DatiGiocatori" -up-> "DatiClassi" : <<uses>>
+  "DatiGiocatori" -up-> "DatiPotenziamenti" : <<uses>>
+  "DatiGiocatori" -up-> "DatiEquip" : <<uses>>
+
+  "DatiLivelli" -up-> "DatiNemici" : <<uses>>
+  "DatiLivelli" -up-> "DatiEventi" : <<uses>>
+
+  "DatiHistory" -right-> "DatiLivelli" : <<uses>>
+  "DatiHistory" -left-> "DatiGiocatori" : <<uses>>
+
+  "DatiBoss" -[hidden]down-> "DatiScenari"
   "DatiStatici" <-[hidden]down- "DatiDinamici"
 }
 
@@ -185,8 +194,17 @@ frame "Controllore" {
 
   }
   note top of "ControllerViewOutput": "Output sullo schermo"
+
+  "ControllerGameLogic" -up-> "ControllerMiddleware" : <<uses>>
+  "ControllerGameLogic" -up-> "ControllerUserInput" : <<uses>>
+  "ControllerGameLogic" -up-> "ControllerViewOutput" : <<uses>>
+
 }
 
-"Controllore" <--[hidden]down--- "Interfaccia"
-"Controllore" <--[hidden]down--- "Modello"
+actor Utente
+
+Utente -up-> "ControllerUserInput"
+"ControllerViewOutput" -left-> "Interfaccia" : <<uses>>
+"ControllerMiddleware" -up-> "Modello" : <<uses>>
+"Controllore" <--[hidden]up- "Interfaccia"
 @enduml
