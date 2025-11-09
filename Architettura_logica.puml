@@ -138,6 +138,8 @@ frame "Modello" {
     frame "DatiHistory" {
 
     }
+    note top of "DatiHistory": "Progressione fino al tempo attuale"
+
     frame "DatiScenari" {
 
     }
@@ -147,21 +149,44 @@ frame "Modello" {
     frame "DatiLivelli" {
       
     }
-    frame "DatiPersonaggi" {
-
-    }
+  
     frame "DatiGiocatori" {
 
     }
+    note top of "DatiGiocatori": "Dati Personaggi Runtime"
   }
 
   "DatiStatici" <-[hidden]down- "DatiDinamici"
 }
 
-frame "Controllore" {
+' - ControllerGameLogic
+' - ControllerMiddleware
+' - ControllerUserInput
+' - ControllerViewOutput
 
+frame "Controllore" {
+  
+  frame "ControllerGameLogic" {
+
+  }
+  note top of "ControllerGameLogic": "Loop di gioco"
+  
+  frame "ControllerMiddleware" {
+
+  }
+  note top of "ControllerMiddleware": "collegamento con il Model - sfrutta ControllerIO"
+  
+  frame "ControllerUserInput" {
+
+  }
+  note top of "ControllerUserInput": "Input con l'utente"
+  
+  frame "ControllerViewOutput" {
+
+  }
+  note top of "ControllerViewOutput": "Output sullo schermo"
 }
 
-"Controllore" <-[hidden]down- "Interfaccia"
-"Controllore" <-[hidden]down- "Modello"
+"Controllore" <--[hidden]down--- "Interfaccia"
+"Controllore" <--[hidden]down--- "Modello"
 @enduml
