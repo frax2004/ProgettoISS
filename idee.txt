@@ -14,16 +14,9 @@ Ogni livello ha un obiettivo - definito a priori
 Elmo maledetto - Boss Finale
 	
 DA DEFINIRE (Per priorità):
-Completamento di un evento + bonus per livello
-Completamento di un livello + bonus per campagna
-Buff per livello e buff permamente per campagna
-Tema del gioco
-Tipologie di Eventi
-Classi di nemici e Personaggi (in base al Tema)
-Equipaggiamento/Caratteristiche per Classe (Astrazione base, le implementazioni un domani)
-Possibili checkpoint
+
 Abilità Attive/Passive (Scalano con il livello del PG)
-Inventario
+
 
 Quando si ha un'idea generale (il più completa possibile):
 1) Architettura logica dell'app (propongo MVC+Layer)
@@ -48,6 +41,18 @@ IDEE BUONE:
 	Recuperabili attraverso pozioni/abilità (SI)
 	Ogni fine livello si resettano gli HP. (SI)
 12) Si ha un max di eventi 'secondari' da potere giocare. (SI)
+13) Completamento di un evento + bonus permanente possibile per campagna (SI)
+14) Completamento di un livello + drop equipaggiamento casuale del boss (SI)
+15) Tema del gioco --> Mercenari Spaziali (SI)
+16) Tipologie di Eventi --> Combattimento, acquisti, incontri npc (superclasse?), slot machine, informazioni (sul boss finale), luoghi magici (SI)
+17) Classi di nemici --> base, boss divisi in lvl1/lvl2/lvl3 (SI)
+18) Classi Personaggi (in base al Tema) --> Gunner (ranger), Psionico (mago), Juggernaut (tank), Vortex (berserk/assassino), Genetista (healer) (da completare?/SI)
+19) Inventario --> 3 slot per armatura (elmo, pettorina e gambali), 1 slot per arma, 1 slot per amuleto, 1 slot per consumabile (forse?). Ogni nuova addizione all'inventario implica l'abbandono di un oggetto già presente in inventario
+20) Caratteristiche per Classe (Astrazione base, le implementazioni un domani) --> hp + intelligenza + destrezza + stats difesa + chance critico + danni da critico + fortuna (per il danno è un prodotto) (SI)
+21) Possibili buff moltiplicativi/amuleti
+22) Due terminali diversi per input e per output. Input in cmd e output in jtextarea (SI)
+
+
 
 Turni:
 1) Iniziativa + DES (Come D&D) (SI)
