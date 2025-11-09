@@ -5,10 +5,10 @@
 ' - View: interfaccia grafica
 ' - Controller: Software vero e proprio
 
-' Il controller sarà diviso in "categorie di classi"
+' Il Controllore sarà diviso in "categorie di classi"
 ' usando architettura a strati modulare.
 
-' Model, View e Controller devono poter comunicare tra loro.
+' Modello, View e Controllore devono poter comunicare tra loro.
 
 ' Da fare una relazione alla fine del progetto
 
@@ -38,14 +38,10 @@
 ' - Menu' opzioni
 '
 
-
-' Model, cosa mettere dentro:
-' - Dati relativi ai personaggi/classi/nemici
-' - Dati relativi all'equipaggiamento
-' - Dati relativi ai potenziamenti
+' - Per gli eventi, possibile implementazione tramite Strategy
 
 frame "Interfaccia" {
-  ' Permettono visualizzazione di scelta di opzioni (Tramite Controller)
+  ' Permettono visualizzazione di scelta di opzioni (Tramite Controllore)
   frame "MENU" {
     ' Scelta di Inizio, Opzioni, Crediti    
     note "Scelta di Inizio, Opzioni, Crediti" as Peppe
@@ -71,7 +67,7 @@ frame "Interfaccia" {
     }
   }
 
-    ' Permette la visualizzazione senza scelte (Tramite Controller)
+    ' Permette la visualizzazione senza scelte (Tramite Controllore)
   frame "VISUALIZZATORI" {
     ' Mostra le info di un evento in particolare
     ' (Quello scelto dal menu')
@@ -96,7 +92,76 @@ frame "Interfaccia" {
   ' "Visualizzatore di mappa livello" <-down- "Menu' Scelta Personaggio"
   ' "Visualizzatore di eventi" <-down- "Menu' di eventi"
   
-  "VISUALIZZATORI" <---[hidden]down-- "MENU"
+  "VISUALIZZATORI" <-[hidden]down- "MENU"
 }
 
+' - Statici
+' - Dati relativi agli eventi: nome, desc, tipologia, (potenziale) immagine
+' - Dati relativi all'equipaggiamento
+' - Dati relativi ai potenziamenti
+' - Dati relativi ai classi, nemici
+' - Dati opzioni
+
+' - Dinamici
+' - History eventi (passati e non)
+' - Scenari (futuri)
+' - Boss
+' - Livelli
+' - Giocatori (Runtime)
+' - Eventuali dati di output (per possibile log della partita)
+
+frame "Modello" {
+  ' Dati che funzionano come 'Database'
+  frame "DatiStatici" {
+    frame "DatiEventi" {
+
+    }
+    frame "DatiEquip" {
+
+    }
+    frame "DatiPotenziamenti" {
+
+    }
+    frame "DatiClassi" {
+
+    }
+    frame "DatiNemici" {
+
+    }
+    frame "DatiOpzioni" {
+
+    }
+  }
+
+  ' Dati relativi alla sessione di gioco corrente
+  frame "DatiDinamici" {
+    frame "DatiHistory" {
+
+    }
+    frame "DatiScenari" {
+
+    }
+    frame "DatiBoss" {
+
+    }
+    frame "DatiLivelli" {
+      
+    }
+    frame "DatiPersonaggi" {
+
+    }
+    frame "DatiGiocatori" {
+
+    }
+  }
+
+  "DatiStatici" <-[hidden]down- "DatiDinamici"
+}
+
+frame "Controllore" {
+
+}
+
+"Controllore" <-[hidden]down- "Interfaccia"
+"Controllore" <-[hidden]down- "Modello"
 @enduml
