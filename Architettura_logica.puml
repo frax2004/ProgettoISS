@@ -15,7 +15,6 @@
 
 ' Tenere a mente Client-Server
 ' Il database può essere "finto" (obv)
-' DISEGNINO A BLOCKLY CHE A NOI CI PIACCIONO I DISEGNINI
 '
 ' Prossimi passaggi:
 ' 1) Definire i requisiti NON funzionali (non direttamente legati alle

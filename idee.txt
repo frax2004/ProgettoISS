@@ -52,6 +52,9 @@ IDEE BUONE:
 21) Possibili buff moltiplicativi/amuleti
 22) Due terminali diversi per input e per output. Input in cmd e output in jtextarea (SI)
 23) Log delle campagne concluse
+24) No preview delle ricompense degli eventi (dettagli minimmi)
+25) descrizione narrativa degli eventi
+26) nessuna possibilità di fare i vigliacchi
 
 Turni:
 1) Iniziativa + DES (Come D&D) (SI)
