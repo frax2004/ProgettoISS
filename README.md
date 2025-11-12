@@ -12,9 +12,9 @@
   - Il software avrà come **target** qualunque sistema operativo che supporta il `JRE` (Java Runtime Environment).
 
 - **Requisiti di spazio** :
-  - Requisiti minimi dell'architettura :
-    - 2 GB RAM
-    - 512 MB Archiviazione
+  - Requisiti dell'architettura :
+    - Ordine di Mib RAM
+    - Ordine di Mib DISCO
 
 - **Requisiti di usabilità** : 
   - E' prevista la separazione per le interfaccie di I/O
