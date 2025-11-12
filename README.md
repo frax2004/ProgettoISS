@@ -17,7 +17,7 @@
     - Ordine di Mib DISCO
 
 - **Requisiti di usabilità** : 
-  - E' prevista la separazione per le interfaccie di I/O
+  - E' prevista la separazione per le interfacce di I/O
   - I menù devono essere semplici
     - Un menù è semplice se soddisfa i seguenti requisiti:
       - Massimo 10 opzioni
