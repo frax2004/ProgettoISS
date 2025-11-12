@@ -70,10 +70,13 @@
   - View the "credits" option
   - Select the "credits" option 
 - [**USR 7**] Ensure that the player is able to:
-  - 
+  - Read the event's description
 - [**USR 8**] Ensure that the player is able to:
-  - 
+  - View the campaign's info
 - [**USR 9**] Ensure that the player is able to:
-  - 
+  - View the party's inventory
+  - View the party's stats
+  - View the party's buffs
 - [**USR 10**] Ensure that the player is able to:
-
+  - View the "save history" option
+  - Select the "save history" option
