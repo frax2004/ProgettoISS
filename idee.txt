@@ -83,6 +83,13 @@ IDEE BUONE:
 28) Le abilità sono sempre e solo 2 (swappabili allo sblocco di nuove)
 29) abilità spendono un certo numero di "slot o mana"
 30) il "mana" può rigenerarsi
+31) Resurrezioni:
+	- evento resurrezione (stessa probabilità, ristoro completo di 1 giocatore morto)
+	- evento resurrezione++ (stessa probabilità (più bassa), ristoro completo di tutti i giocatori morti)
+	- totem di resurrezione al mercante prima del boss (ristoro completo di 1 giocatore morto)
+	- al completamento di un livello (ristoro minimo di tutti i giocatori morti)
+
+32) variabilità degli eventi in base a probabilità (esempio: numero di personaggi resuscitati)
 
 Turni:
 1) (interlacciata player-nemici) Iniziativa + DES (Come D&D) (SI)
