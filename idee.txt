@@ -44,21 +44,50 @@ IDEE BUONE:
 13) Completamento di un evento + bonus permanente possibile per campagna (SI)
 14) Completamento di un livello + drop equipaggiamento casuale del boss (SI)
 15) Tema del gioco --> Mercenari Spaziali (SI)
-16) Tipologie di Eventi --> Combattimento, acquisti, incontri npc (superclasse?), slot machine, informazioni (sul boss finale), luoghi magici (SI)
+16) Tipologie di Eventi --> 
+	- Combattimento
+	- acquisti
+	- incontri npc (superclasse?)
+	- gambling
+	- informazioni (sul boss finale)
+	- luoghi magici (SI) 
 17) Classi di nemici --> base, boss divisi in lvl1/lvl2/lvl3 (SI)
-18) Classi Personaggi (in base al Tema) --> Gunner (ranger), Psionico (mago), Juggernaut (tank), Vortex (berserk/assassino), Genetista (healer) (da completare?/SI)
-19) Inventario --> 3 slot per armatura (elmo, pettorina e gambali), 1 slot per arma, 1 slot per amuleto, 1 slot per consumabile (forse?). Ogni nuova addizione all'inventario implica l'abbandono di un oggetto già presente in inventario
-20) Caratteristiche per Classe (Astrazione base, le implementazioni un domani) --> hp + intelligenza + destrezza + stats difesa + chance critico + danni da critico + fortuna (per il danno è un prodotto) (SI)
+18) Classi Personaggi (in base al Tema) --> 
+	- Flinger (thrower - ranged)
+	- Gunner (ranged), 
+	- Psionico (caster), 
+	- Juggernaut (tank - melee), 
+	- Vortex (berserk/assassino - melee), 
+	- Genetista (healer - caster)
+19) Inventario --> 3 slot per armatura (elmo, pettorina e gambali), 1 slot per arma, 1 slot per amuleto, 2 slot per consumabile (stackabili) (forse?). Ogni nuova addizione all'inventario implica l'abbandono di un oggetto già presente in inventario
+20) Caratteristiche per Classe (Astrazione base, le implementazioni un domani) --> 
+	+ hp 
+	+ intelligenza 
+	+ destrezza 
+	+ stats difesa 
+	+ chance critico 
+	+ danni da critico 
+	+ fortuna (per il danno è un prodotto) (SI)
+	+ mana
+	+ mana regen
 21) Possibili buff moltiplicativi/amuleti
 22) Due terminali diversi per input e per output. Input in cmd e output in jtextarea (SI)
 23) Log delle campagne concluse
 24) No preview delle ricompense degli eventi (dettagli minimmi)
 25) descrizione narrativa degli eventi
 26) nessuna possibilità di fare i vigliacchi
+27) Super efficacia (archetipi):
+	- ranged -> melee
+	- melee -> caster
+	- caster -> ranged
+28) Le abilità sono sempre e solo 2 (swappabili allo sblocco di nuove)
+29) abilità spendono un certo numero di "slot o mana"
+30) il "mana" può rigenerarsi
 
 Turni:
-1) Iniziativa + DES (Come D&D) (SI)
+1) (interlacciata player-nemici) Iniziativa + DES (Come D&D) (SI)
 2) Possibilità di più attacchi per il boss (Poi si vede)
+3) l'utente può scegliere il bersaglio da attaccare
 
 OK:
 Avventurieri incaricati di sconfiggere un boss

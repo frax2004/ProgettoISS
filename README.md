@@ -38,9 +38,17 @@
   - [**USR 8**] **As a** player **i want to** see the campaign's map **so that** i can view the campaign's info
   - [**USR 9**] **As a** player **i want to** access the inventory **so that** i can see the party's stats and equipments
   - [**USR 10**] **As a** player **i want to** be able to save the campaign's history on a local file **so that** i can review it later
+  - [**USR 11**] **As a** player **i want to** view the contents of the non-fight event **so that** i can interact with it [**EPC 2**] 
+  - [**USR 12**] **As a** player **i want to** view the outcome of the non-fight event **so that** i can go to the next scenario [**EPC 2**]
+  - [**USR 13**] **As a** player **i want to** view the contents of the fight event **so that** i can choose a target to fight [**EPC 3**]
+  - [**USR 14**] **As a** player **i want to** choose an action on my turn **so that** i can use it [**EPC 3**]
+  - [**USR 15**] **As a** player **i want to** choose a target on my turn **so that** i can interact with it [**EPC 3**]
+  - [**USR 16**] **As a** player **i want to** view the outcome of the fight event **so that** i can go to the next scenario [**EPC 3**]
 
 - Epics
   - [**EPC 1**] **As a** player **i want to** create a player **so that** i can play
+  - [**EPC 2**] **As a** player **i want to** interact with non-fight events **so that** i can access the next scenario
+  - [**EPC 3**] **As a** player **i want to** interact with fight events **so that** i can access the next scenario 
 
 ### Acceptance Criteria
 - [**USR 1**] Ensure that the player is able to:
