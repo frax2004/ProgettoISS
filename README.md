@@ -43,7 +43,6 @@
   - [**USR 13**] **As a** player **i want to** view the contents of the fight event **so that** i can choose my next action [**EPC 3**]
   - [**USR 14**] **As a** player **i want to** choose an action on my turn **so that** i can use it [**EPC 3**]
   - [**USR 15**] **As a** player **i want to** choose a target on my turn **so that** i can interact with it [**EPC 3**]
-  - [**USR 16**] **As a** player **i want to** view the outcome of the fight event **so that** i can go to the next scenario [**EPC 3**]
 
 - Epics
   - [**P = 1**] [**EPC 1**] **As a** player **i want to** create a character **so that** i can play
