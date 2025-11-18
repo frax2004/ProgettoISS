@@ -28,12 +28,12 @@
 ### Requisiti Funzionali
 
 - User stories
-  - [**P = 1**] [**USR 1**] **As a** player **i want to** access the main menu **so that** i can start a new campaign
-  - [**P = 3**] [**USR 2**] **As a** player **i want to** access the main menu **so that** i can access the options
+  - [**P = 1**] [**USR 1**] **As a** player **i want to** access the main menu **so that** i can start a new campaign [**EPC 4**]
+  - [**P = 3**] [**USR 2**] **As a** player **i want to** access the main menu **so that** i can access the options [**EPC 4**]
   - [**USR 3**] **As a** player **i want to** choose a character class **so that** i can create a character [**EPC 1**]
   - [**USR 4**] **As a** player **i want to** insert a name **so that** i can create a character [**EPC 1**]
   - [**P = 1**] [**USR 5**] **As a** player **i want to** view the events in the current scenario **so that** i can choose one of them or skip it (next scenario or boss)
-  - [**P = 3**] [**USR 6**] **As a** player **i want to** access the main menu **so that** i can view credits
+  - [**P = 3**] [**USR 6**] **As a** player **i want to** access the main menu **so that** i can view credits [**EPC 4**]
   - [**P = 3**] [**USR 7**] **As a** player **i want to** see the events' description **so that** i can learn about lore
   - [**P = 3**] [**USR 8**] **As a** player **i want to** see the campaign's map **so that** i can view the campaign's info
   - [**P = 2**] [**USR 9**] **As a** player **i want to** access the inventory **so that** i can see the party's stats and equipments
@@ -43,11 +43,13 @@
   - [**USR 13**] **As a** player **i want to** view the contents of the fight event **so that** i can choose my next action [**EPC 3**]
   - [**USR 14**] **As a** player **i want to** choose an action on my turn **so that** i can use it [**EPC 3**]
   - [**USR 15**] **As a** player **i want to** choose a target on my turn **so that** i can interact with it [**EPC 3**]
+  - [**P = 2**] [**USR 16**] **As a** player **i want to** have the choice of discarding an owned item **so that** i can change it with a new one (dropped by boss or bought from shop/market)
 
 - Epics
   - [**P = 1**] [**EPC 1**] **As a** player **i want to** create a character **so that** i can play
   - [**P = 1**] [**EPC 2**] **As a** player **i want to** interact with non-fight events **so that** i can access the next scenario
   - [**P = 1**] [**EPC 3**] **As a** player **i want to** interact with fight events **so that** i can access the next scenario 
+  - [**EPC 4**] **As a** player **i want to** access main menu **so that** i can see the main options of the game
 
 ### Acceptance Criteria
 - [**USR 1**] Ensure that the player is able to:
@@ -104,3 +106,8 @@
 - [**USR 15**] Ensure that if the player selects an ability, then he is able to:
   - View the possible targets
   - Select one of the possibile targets
+- [**USR 16**] Ensure that the player is able to:
+  - View the stats of new equipment
+  - View the discard options (Y/N)
+  - Select only one of the options
+  - View the 'outcome' label
