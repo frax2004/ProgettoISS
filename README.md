@@ -28,29 +28,30 @@
 ### Requisiti Funzionali
 
 - User stories
-  - [**P = 1**] [**USR 1**] **As a** player **i want to** access the main menu **so that** i can start a new campaign [**EPC 4**]
-  - [**P = 3**] [**USR 2**] **As a** player **i want to** access the main menu **so that** i can access the options [**EPC 4**]
-  - [**USR 3**] **As a** player **i want to** choose a character class **so that** i can create a character [**EPC 1**]
-  - [**USR 4**] **As a** player **i want to** insert a name **so that** i can create a character [**EPC 1**]
-  - [**P = 1**] [**USR 5**] **As a** player **i want to** view the events in the current scenario **so that** i can choose one of them or skip it (next scenario or boss)
-  - [**P = 3**] [**USR 6**] **As a** player **i want to** access the main menu **so that** i can view credits [**EPC 4**]
-  - [**P = 3**] [**USR 7**] **As a** player **i want to** see the events' description **so that** i can learn about lore
-  - [**P = 3**] [**USR 8**] **As a** player **i want to** see the campaign's map **so that** i can view the campaign's info
-  - [**P = 2**] [**USR 9**] **As a** player **i want to** access the inventory **so that** i can see the party's stats and equipments
-  - [**P = 3**] [**USR 10**] **As a** player **i want to** be able to save the campaign's history on a local file **so that** i can review it later
-  - [**USR 11**] **As a** player **i want to** view the contents of the non-fight event **so that** i can interact with it [**EPC 2**] 
-  - [**USR 12**] **As a** player **i want to** view the outcome of the event **so that** i can go to the next scenario [**EPC 2**]
-  - [**USR 13**] **As a** player **i want to** view the contents of the fight event **so that** i can choose my next action [**EPC 3**]
-  - [**USR 14**] **As a** player **i want to** choose an action on my turn **so that** i can use it [**EPC 3**]
-  - [**USR 15**] **As a** player **i want to** choose a target on my turn **so that** i can interact with it [**EPC 3**]
-  - [**P = 2**] [**USR 16**] **As a** player **i want to** have the choice of discarding an owned item **so that** i can change it with a new one (dropped by boss or bought from shop/market)
-  - [**USR 17**] **As a** player **i want to** choose the number of team members **so that** i can continue creating the new campaign
+  - [**P = 1**] [**USR 1**] **As a** player **I want to** access the main menu **so that** I can start a new campaign [**EPC 4**]
+  - [**P = 3**] [**USR 2**] **As a** player **I want to** access the main menu **so that** I can access the options [**EPC 4**]
+  - [**USR 3**] **As a** player **I want to** choose a character class **so that** I can create a character [**EPC 1**]
+  - [**USR 4**] **As a** player **I want to** insert a name **so that** I can create a character [**EPC 1**]
+  - [**P = 1**] [**USR 5**] **As a** player **I want to** view the events in the current scenario **so that** I can choose one of them or skip it (next scenario or boss)
+  - [**P = 3**] [**USR 6**] **As a** player **I want to** access the main menu **so that** I can view credits [**EPC 4**]
+  - [**P = 3**] [**USR 7**] **As a** player **I want to** see the events' description **so that** I can learn about lore
+  - [**P = 3**] [**USR 8**] **As a** player **I want to** see the campaign's map **so that** I can view the campaign's info
+  - [**P = 2**] [**USR 9**] **As a** player **I want to** access the inventory **so that** I can see the party's stats and equipments
+  - [**P = 3**] [**USR 10**] **As a** player **I want to** be able to save the campaign's history on a local file **so that** I can review it later
+  - [**USR 11**] **As a** player **I want to** view the contents of the non-fight event **so that** I can interact with it [**EPC 2**] 
+  - [**USR 12**] **As a** player **I want to** view the outcome of the event **so that** I can go to the next scenario [**EPC 2**]
+  - [**USR 13**] **As a** player **I want to** view the contents of the fight event **so that** I can choose my next action [**EPC 3**]
+  - [**USR 14**] **As a** player **I want to** choose an action on my turn **so that** I can use it [**EPC 3**]
+  - [**USR 15**] **As a** player **I want to** choose a target on my turn **so that** I can interact with it [**EPC 3**]
+  - [**P = 2**] [**USR 16**] **As a** player **I want to** have the choice of discarding an owned item **so that** I can change it with a new one (dropped by boss or bought from shop/market)
+  - [**USR 17**] **As a** player **I want to** choose the number of team members **so that** I can continue creating the new campaign
+  - [**P = 1**] [**USR 18**] **As a** player **I want to** skip the current scenario **so that** I can go to the next one or I can fight the boss directly
 
 - Epics
-  - [**P = 1**] [**EPC 1**] **As a** player **i want to** create a new campaign **so that** i can play
-  - [**P = 1**] [**EPC 2**] **As a** player **i want to** interact with non-fight events **so that** i can access the next scenario
-  - [**P = 1**] [**EPC 3**] **As a** player **i want to** interact with fight events **so that** i can access the next scenario 
-  - [**EPC 4**] **As a** player **i want to** access main menu **so that** i can see the main options of the game
+  - [**P = 1**] [**EPC 1**] **As a** player **I want to** create a new campaign **so that** I can play
+  - [**P = 1**] [**EPC 2**] **As a** player **I want to** interact with non-fight events **so that** I can access the next scenario
+  - [**P = 1**] [**EPC 3**] **As a** player **I want to** interact with fight events **so that** I can access the next scenario 
+  - [**EPC 4**] **As a** player **I want to** access main menu **so that** I can see the main options of the game
 
 ### Acceptance Criteria
 - [**USR 1**] Ensure that the player is able to:
@@ -116,3 +117,6 @@
   - View the 'Insert number of teammates
   - Insert the number of teammates (2-5)
   - View input errors if they happen
+- [**USR 18**] (Once skip option is selected [**USR 5**]) Ensure that the player is able to:
+  - View the next scenario
+  - (Or) View the boss event
