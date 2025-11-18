@@ -46,6 +46,7 @@
   - [**P = 2**] [**USR 16**] **As a** player **I want to** have the choice of discarding an owned item **so that** I can change it with a new one (dropped by boss or bought from shop/market)
   - [**USR 17**] **As a** player **I want to** choose the number of team members **so that** I can continue creating the new campaign
   - [**P = 1**] [**USR 18**] **As a** player **I want to** skip the current scenario **so that** I can go to the next one or I can fight the boss directly
+  - [**P = 1**] [**USR 19**] **As a** player **I want to** finish the current level (by defeating the final boss) **so that** I can go to the next level
 
 - Epics
   - [**P = 1**] [**EPC 1**] **As a** player **I want to** create a new campaign **so that** I can play
@@ -120,3 +121,10 @@
 - [**USR 18**] (Once skip option is selected [**USR 5**]) Ensure that the player is able to:
   - View the next scenario
   - (Or) View the boss event
+- [**USR 19**] Ensure that the player is able to:
+  - (If not last level) View the 'Level Completed' label
+  - (If not last level) Change to next level tab
+  - (If not last level) View the next level first scenario (see [**USR 5**])
+  - (If last level) View Campaign's History
+  - (If last level) View the save history options (Y/N) (see [**USR 10**])
+  - (If last level) Return Main Menu (see [**EPC 4**])
