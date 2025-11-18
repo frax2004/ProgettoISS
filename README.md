@@ -44,9 +44,10 @@
   - [**USR 14**] **As a** player **i want to** choose an action on my turn **so that** i can use it [**EPC 3**]
   - [**USR 15**] **As a** player **i want to** choose a target on my turn **so that** i can interact with it [**EPC 3**]
   - [**P = 2**] [**USR 16**] **As a** player **i want to** have the choice of discarding an owned item **so that** i can change it with a new one (dropped by boss or bought from shop/market)
+  - [**USR 17**] **As a** player **i want to** choose the number of team members **so that** i can continue creating the new campaign
 
 - Epics
-  - [**P = 1**] [**EPC 1**] **As a** player **i want to** create a character **so that** i can play
+  - [**P = 1**] [**EPC 1**] **As a** player **i want to** create a new campaign **so that** i can play
   - [**P = 1**] [**EPC 2**] **As a** player **i want to** interact with non-fight events **so that** i can access the next scenario
   - [**P = 1**] [**EPC 3**] **As a** player **i want to** interact with fight events **so that** i can access the next scenario 
   - [**EPC 4**] **As a** player **i want to** access main menu **so that** i can see the main options of the game
@@ -111,3 +112,7 @@
   - View the discard options (Y/N)
   - Select only one of the options
   - View the 'outcome' label
+- [**USR 17**] Ensure that the player is able to:
+  - View the 'Insert number of teammates
+  - Insert the number of teammates (2-5)
+  - View input errors if they happen
