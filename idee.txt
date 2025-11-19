@@ -48,7 +48,7 @@ IDEE BUONE:
 	- Combattimento
 	- acquisti
 	- incontri npc (superclasse?)
-	- gambling
+	- basati su fortuna
 	- informazioni (sul boss finale)
 	- luoghi magici (SI) 
 17) Classi di nemici --> base, boss divisi in lvl1/lvl2/lvl3 (SI)
